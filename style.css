@@ -1,0 +1,39 @@
+.border {
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    position: relative; /* biar anaknya bisa diatur posisinya */
+}
+
+.photo-lingkaran {
+    width: 140px;
+    height: 145px;
+    border: 2px solid silver;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: silver;
+    float: right; /* ini bikin fotonya di kanan border */
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.teks-satu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.button button {
+    background-color: #1E3A8A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px -2px blue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.button button:hover {
+    background-color: #3776AB;
+}
